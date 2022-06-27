@@ -1,0 +1,17 @@
+.Card{
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0.3rem 0.3rem rgba(121, 121, 121, 0.65);
+    cursor: pointer;
+    
+}
+
+.Card:hover {
+    transform: scale(1.05);
+}
+
+.Card:active{
+    transform: translate(0, 0.3rem);
+    box-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 0.65);
+}

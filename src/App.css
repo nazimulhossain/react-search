@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital,wght@1,500&family=Style+Script&display=swap');
+
+.App {
+  text-align: center;
+  
+  
+}
+
+h1 {
+  font-family: 'Style Script', cursive;
+  font-size: 40px;
+}

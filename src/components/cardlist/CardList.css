@@ -1,0 +1,22 @@
+.CardList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .CardList {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+        
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .CardList {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        
+    }
+  }

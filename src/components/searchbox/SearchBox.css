@@ -1,0 +1,6 @@
+.SearchBox input {
+    text-align: center;
+    border-radius: 10px;
+    cursor: auto;
+    padding: 10px;
+}
